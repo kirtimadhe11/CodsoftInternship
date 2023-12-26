@@ -1,0 +1,185 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	font-family: sans-serif;
+
+}
+.navmenu
+{
+	font-size: 20px;
+	color: rebeccapurple;
+	font-weight: bolder;
+	background-color: whitesmoke;
+}
+.logo
+{
+	font-size: 35px;
+	font-family: Elephant;
+	font-variant: small-caps;
+	color: cadetblue;
+}
+.sections-menu{
+position: relative;
+top: 50px;
+}
+.navigation-bar{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+	width: 100%;
+	height: 30px;
+	
+}
+html{
+	scroll-behavior: smooth;
+}
+#home
+{
+	height: 600px;
+	width: 100%;
+	background-image: url(https://camo.githubusercontent.com/cae12fddd9d6982901d82580bdf321d81fb299141098ca1c2d4891870827bf17/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966);
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	position: relative;
+	background-size: 100%;
+}
+.homeinfo{
+	position: absolute;
+	top: 70px;
+	left: 50px;
+	height: 400px;
+	width: 800px;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+.ginfo{
+/*	font-variant: small-caps;*/
+
+}
+.myname{
+	font-family: sans-serif ;
+	color:chocolate;
+	font-size: 45px;
+}
+.fullstack{
+	color: rebeccapurple;
+	font-size: 30px;
+}
+.resumebtn{
+	border: none;
+	height: 50px;
+	width: 170px;
+	color: black;
+	background-color: lightgrey;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: bolder;
+	transition-duration: 1s;
+}
+.resumebtn:hover
+{
+	transform: scale(1.1);
+	background-color: white;
+	color: whitesmoke;
+    border: 3px solid royalblue;
+}
+#About{
+margin-top: 50px;
+width: 100%;
+height: 400px;
+/*background-color: whitesmoke;*/
+display: inline-flex;
+}
+.img{
+padding: 70px;
+height: 400px;
+}
+.img img{
+height: 300px;
+width: 250px;
+transition-duration: 1.5s;
+}
+.img img:hover{
+	transform: scale(1.2);
+	border-radius: 50px;
+	box-shadow: 0px 0px 20px grey;
+}
+.careerobj{
+ font-size: 25px;
+ color: gray;
+}
+.careerobj p{
+  text-align: justify;
+  text-indent: 20%;
+  margin-top: 50px;
+  padding: 0px 30px;
+}
+.heading
+{
+	margin-top: 40px;
+	color: cadetblue;
+	font-weight: bolder;
+	font-size: 50px;
+	text-align: center;
+}
+#skills{
+	height: 550px;
+	width: 70%;
+/*	background-color: orangered;*/
+}
+.skillsheading
+{
+	color: firebrick;
+	font-weight: bolder;
+	font-variant: small-caps;
+	font-size: 30px;
+	margin-top: 20px;
+}
+td:hover
+{
+	box-shadow: 0px 0px 20px grey;
+	border-radius: 50px;
+}
+.skillstable tr td p{
+	font-size: 24px;
+	font-weight: bolder;
+	margin-top: 25px;
+}
+.skilstable tr td{
+	transition-duration: 1s;
+}
+#projects
+{
+	height: 1350px;
+	width: 100%;
+	background-color: whitesmoke;
+}
+.proj{
+margin-top: 50px;
+}
+.card-deck{
+	width: 90%;
+	margin-top: 40px;
+}
+#contact{
+	margin-top:200PX;
+	height: 400px;
+	width: 100%;
+/*	background-color: lightgrey;*/
+	display:inline-flex ;
+}
+.mycntinfo{
+	width: 50%;
+}
+.kkk
+{
+	color: cadetblue;
+	font-weight: bolder;
+}
+.heading1{
+	color: cadetblue;
+	font-weight: bolder;
+
+}
